@@ -1,14 +1,20 @@
 import { Day } from '../enums';
 
 export default class Lesson {
+    private readonly _id: string;
     private _startTime: string;
     private _endTime: string;
     private _day: Day;
 
-    constructor(startTime: string, endTime: string, day: Day) {
+    constructor(id: string, startTime: string, endTime: string, day: Day) {
+        this._id = id;
         this._startTime = startTime;
         this._endTime = endTime;
         this._day = day;
+    }
+
+    get id() {
+        return this._id;
     }
 
     get startTime() {

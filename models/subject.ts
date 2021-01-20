@@ -4,14 +4,14 @@ import List from './list';
 export default class Subject {
     private readonly _id: string;
     private _name: string;
-    private _equipment: List<Equipment>;
+    private _equipments: List<Equipment>;
     private _difficulty: number;
 
-    constructor(id: string, name: string, difficulty: number, equipment?: Equipment[]) {
+    constructor(id: string, name: string, difficulty: number, equipments?: Equipment[]) {
         this._id = id;
         this._name = name;
         this._difficulty = difficulty;
-        this._equipment = new List<Equipment>(equipment);
+        this._equipments = new List<Equipment>(equipments);
     }
 
     get id() {
@@ -26,8 +26,8 @@ export default class Subject {
         this._name = name;
     }
 
-    get equipment() {
-        return this._equipment.list;
+    get equipments() {
+        return this._equipments.list;
     }
 
     get difficulty() {
