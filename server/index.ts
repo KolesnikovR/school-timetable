@@ -1,11 +1,23 @@
+import express from 'express';
+
 import Class from './models/class';
 import Cabinet from './models/cabinet';
 import Subject from './models/subject';
 import Teacher from './models/teacher';
 import Lesson from './models/lesson';
+import Equipment from './models/equipment';
+import Configuration from './configuration';
 
 import data from './json/data.json';
-import Equipment from './models/equipment';
+
+const app = express();
+const port = Configuration.getAppPort();
+
+app.get('/', (req, res) => res.send('Express + TypeScript Server'));
+
+app.listen(port, () => {
+    console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
+});
 
 // Множество оборудования
 let equipments: Equipment[] = data.equipments.map((equipment: any) => new Equipment(equipment.name, equipment.isRequired));

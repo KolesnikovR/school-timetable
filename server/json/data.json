@@ -1,54 +1,268 @@
 {
     "teachers": [
         {
-            "name": "Маргарита",
-            "surname": "Соколовская",
-            "patronymic": "Александровна",
-            "subjects": [
-                "1"
-            ],
-            "wishes": [
-                "0",
-                "1",
-                "2",
-                "3",
-                "4",
-                "5",
-                "6",
-                "7",
-                "8",
-                "9"
-            ],
-            "cabinets": [
-                "101"
-            ]
+            "surname": "Шабан",
+            "name": "Л.",
+            "patronymic": "В.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
         },
         {
-            "name": "Елена",
-            "surname": "Иванова",
-            "patronymic": "Павловна",
-            "subjects": [
-                "1",
-                "2"
-            ],
-            "wishes": [
-                "20",
-                "21",
-                "22",
-                "23",
-                "24",
-                "25",
-                "26",
-                "27",
-                "28",
-                "29",
-                "30",
-                "31"
-            ],
-            "cabinets": [
-                "100",
-                "102"
-            ]
+            "surname": "Романькова",
+            "name": "В.",
+            "patronymic": "М.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Бурая",
+            "name": "М.",
+            "patronymic": "М.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Гончарова",
+            "name": "О.",
+            "patronymic": "В.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Лукьянова",
+            "name": "О.",
+            "patronymic": "В.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Петрова",
+            "name": "Р.",
+            "patronymic": "А.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Шеметова",
+            "name": "Г.",
+            "patronymic": "Н.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Баньковская",
+            "name": "Н.",
+            "patronymic": "Г.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Колюх",
+            "name": "И.",
+            "patronymic": "А.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Вишневская",
+            "name": "Б.",
+            "patronymic": "С.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Боярович",
+            "name": "С.",
+            "patronymic": "А.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Шерешик",
+            "name": "О.",
+            "patronymic": "В.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Хвитько",
+            "name": "С.",
+            "patronymic": "Н.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Семеняко",
+            "name": "В.",
+            "patronymic": "В.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Федосенко",
+            "name": "Ф.",
+            "patronymic": "В.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Ишутина",
+            "name": "С.",
+            "patronymic": "В.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Короб",
+            "name": "О.",
+            "patronymic": "Ф.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Харлан",
+            "name": "Ю.",
+            "patronymic": "В.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Карлович",
+            "name": "В.",
+            "patronymic": "В.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Ерухимович",
+            "name": "Л.",
+            "patronymic": "Ю.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Старокожева",
+            "name": "А.",
+            "patronymic": "А.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Архангельская",
+            "name": "А.",
+            "patronymic": "Е.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Стригельская",
+            "name": "Е.",
+            "patronymic": "И.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Яцкевич",
+            "name": "Я.",
+            "patronymic": "Н.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Рожнов",
+            "name": "Л.",
+            "patronymic": "И.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Хватюк",
+            "name": "С.",
+            "patronymic": "Н.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Корбут",
+            "name": "П.",
+            "patronymic": "И.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Вальковская",
+            "name": "В.",
+            "patronymic": "В.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Наумчик",
+            "name": "В.",
+            "patronymic": "И.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Бобко",
+            "name": "А.",
+            "patronymic": "Г.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Алексеевич",
+            "name": "С.",
+            "patronymic": "В.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Куницкая",
+            "name": "Т.",
+            "patronymic": "Г.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Лапуцкая",
+            "name": "М.",
+            "patronymic": "Е.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
         }
     ],
     "subjects": [
