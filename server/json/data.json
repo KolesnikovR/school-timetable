@@ -1,0 +1,595 @@
+{
+    "teachers": [
+        {
+            "surname": "Шабан",
+            "name": "Л.",
+            "patronymic": "В.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Романькова",
+            "name": "В.",
+            "patronymic": "М.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Бурая",
+            "name": "М.",
+            "patronymic": "М.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Гончарова",
+            "name": "О.",
+            "patronymic": "В.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Лукьянова",
+            "name": "О.",
+            "patronymic": "В.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Петрова",
+            "name": "Р.",
+            "patronymic": "А.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Шеметова",
+            "name": "Г.",
+            "patronymic": "Н.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Баньковская",
+            "name": "Н.",
+            "patronymic": "Г.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Колюх",
+            "name": "И.",
+            "patronymic": "А.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Вишневская",
+            "name": "Б.",
+            "patronymic": "С.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Боярович",
+            "name": "С.",
+            "patronymic": "А.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Шерешик",
+            "name": "О.",
+            "patronymic": "В.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Хвитько",
+            "name": "С.",
+            "patronymic": "Н.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Семеняко",
+            "name": "В.",
+            "patronymic": "В.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Федосенко",
+            "name": "Ф.",
+            "patronymic": "В.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Ишутина",
+            "name": "С.",
+            "patronymic": "В.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Короб",
+            "name": "О.",
+            "patronymic": "Ф.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Харлан",
+            "name": "Ю.",
+            "patronymic": "В.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Карлович",
+            "name": "В.",
+            "patronymic": "В.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Ерухимович",
+            "name": "Л.",
+            "patronymic": "Ю.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Старокожева",
+            "name": "А.",
+            "patronymic": "А.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Архангельская",
+            "name": "А.",
+            "patronymic": "Е.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Стригельская",
+            "name": "Е.",
+            "patronymic": "И.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Яцкевич",
+            "name": "Я.",
+            "patronymic": "Н.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Рожнов",
+            "name": "Л.",
+            "patronymic": "И.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Хватюк",
+            "name": "С.",
+            "patronymic": "Н.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Корбут",
+            "name": "П.",
+            "patronymic": "И.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Вальковская",
+            "name": "В.",
+            "patronymic": "В.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Наумчик",
+            "name": "В.",
+            "patronymic": "И.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Бобко",
+            "name": "А.",
+            "patronymic": "Г.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Алексеевич",
+            "name": "С.",
+            "patronymic": "В.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Куницкая",
+            "name": "Т.",
+            "patronymic": "Г.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        },
+        {
+            "surname": "Лапуцкая",
+            "name": "М.",
+            "patronymic": "Е.",
+            "subjects": [],
+            "wishes": [],
+            "cabinets": []
+        }
+    ],
+    "subjects": [
+        {
+            "name": "Иностранный язык",
+            "difficulty": 11,
+            "equipments": []
+        },
+        {
+            "name": "Математика",
+            "difficulty": 8,
+            "equipments": []
+        },
+        {
+            "name": "Физика",
+            "difficulty": 9,
+            "equipments": [
+                "Инвентарь для лабораторных по физике"
+            ]
+        }
+    ],
+    "cabinets": [
+        {
+            "num": "100",
+            "equipments": []
+        },
+        {
+            "num": "101",
+            "equipments": []
+        },
+        {
+            "num": "102",
+            "equipments": [
+                "Инвентарь для лабораторных по физике"
+            ]
+        }
+    ],
+    "classes": [
+        {
+            "name": "1A",
+            "subjects": [
+                "1"
+            ]
+        },
+        {
+            "name": "11A",
+            "subjects": [
+                "0",
+                "1",
+                "2"
+            ]
+        }
+    ],
+    "equipments": [
+        {
+            "name": "Спортивный инвентарь",
+            "isRequired": true
+        },
+        {
+            "name": "Инвентарь для лабораторных по физике",
+            "isRequired": true
+        },
+        {
+            "name": "Карты",
+            "isRequired": false
+        }
+    ],
+    "lessons": [
+        {
+            "startTime": "8:30",
+            "endTime": "9:15",
+            "day": 0
+        },
+        {
+            "startTime": "9:30",
+            "endTime": "10:15",
+            "day": 0
+        },
+        {
+            "startTime": "10:30",
+            "endTime": "11:15",
+            "day": 0
+        },
+        {
+            "startTime": "11:30",
+            "endTime": "12:15",
+            "day": 0
+        },
+        {
+            "startTime": "12:30",
+            "endTime": "13:15",
+            "day": 0
+        },
+        {
+            "startTime": "13:30",
+            "endTime": "14:15",
+            "day": 0
+        },
+        {
+            "startTime": "14:30",
+            "endTime": "15:15",
+            "day": 0
+        },
+        {
+            "startTime": "15:30",
+            "endTime": "16:15",
+            "day": 0
+        },
+        {
+            "startTime": "16:30",
+            "endTime": "17:15",
+            "day": 0
+        },
+        {
+            "startTime": "17:30",
+            "endTime": "18:15",
+            "day": 0
+        },
+        {
+            "startTime": "8:30",
+            "endTime": "9:15",
+            "day": 1
+        },
+        {
+            "startTime": "9:30",
+            "endTime": "10:15",
+            "day": 1
+        },
+        {
+            "startTime": "10:30",
+            "endTime": "11:15",
+            "day": 1
+        },
+        {
+            "startTime": "11:30",
+            "endTime": "12:15",
+            "day": 1
+        },
+        {
+            "startTime": "12:30",
+            "endTime": "13:15",
+            "day": 1
+        },
+        {
+            "startTime": "13:30",
+            "endTime": "14:15",
+            "day": 1
+        },
+        {
+            "startTime": "14:30",
+            "endTime": "15:15",
+            "day": 1
+        },
+        {
+            "startTime": "15:30",
+            "endTime": "16:15",
+            "day": 1
+        },
+        {
+            "startTime": "16:30",
+            "endTime": "17:15",
+            "day": 1
+        },
+        {
+            "startTime": "17:30",
+            "endTime": "18:15",
+            "day": 1
+        },
+        {
+            "startTime": "8:00",
+            "endTime": "8:20",
+            "day": 2
+        },
+        {
+            "startTime": "8:30",
+            "endTime": "9:15",
+            "day": 2
+        },
+        {
+            "startTime": "9:30",
+            "endTime": "10:15",
+            "day": 2
+        },
+        {
+            "startTime": "10:30",
+            "endTime": "11:15",
+            "day": 2
+        },
+        {
+            "startTime": "11:30",
+            "endTime": "12:15",
+            "day": 2
+        },
+        {
+            "startTime": "12:30",
+            "endTime": "13:15",
+            "day": 2
+        },
+        {
+            "startTime": "13:30",
+            "endTime": "14:15",
+            "day": 2
+        },
+        {
+            "startTime": "14:30",
+            "endTime": "15:15",
+            "day": 2
+        },
+        {
+            "startTime": "15:30",
+            "endTime": "16:15",
+            "day": 2
+        },
+        {
+            "startTime": "16:30",
+            "endTime": "17:15",
+            "day": 2
+        },
+        {
+            "startTime": "17:30",
+            "endTime": "18:15",
+            "day": 2
+        },
+        {
+            "startTime": "18:25",
+            "endTime": "18:45",
+            "day": 2
+        },
+        {
+            "startTime": "8:30",
+            "endTime": "9:15",
+            "day": 3
+        },
+        {
+            "startTime": "9:30",
+            "endTime": "10:15",
+            "day": 3
+        },
+        {
+            "startTime": "10:30",
+            "endTime": "11:15",
+            "day": 3
+        },
+        {
+            "startTime": "11:30",
+            "endTime": "12:15",
+            "day": 3
+        },
+        {
+            "startTime": "12:30",
+            "endTime": "13:15",
+            "day": 3
+        },
+        {
+            "startTime": "13:30",
+            "endTime": "14:15",
+            "day": 3
+        },
+        {
+            "startTime": "14:30",
+            "endTime": "15:15",
+            "day": 3
+        },
+        {
+            "startTime": "15:30",
+            "endTime": "16:15",
+            "day": 3
+        },
+        {
+            "startTime": "16:30",
+            "endTime": "17:15",
+            "day": 3
+        },
+        {
+            "startTime": "17:30",
+            "endTime": "18:15",
+            "day": 3
+        },
+        {
+            "startTime": "8:30",
+            "endTime": "9:15",
+            "day": 4
+        },
+        {
+            "startTime": "9:30",
+            "endTime": "10:15",
+            "day": 4
+        },
+        {
+            "startTime": "10:30",
+            "endTime": "11:15",
+            "day": 4
+        },
+        {
+            "startTime": "11:30",
+            "endTime": "12:15",
+            "day": 4
+        },
+        {
+            "startTime": "12:30",
+            "endTime": "13:15",
+            "day": 4
+        },
+        {
+            "startTime": "13:30",
+            "endTime": "14:15",
+            "day": 4
+        },
+        {
+            "startTime": "14:30",
+            "endTime": "15:15",
+            "day": 4
+        },
+        {
+            "startTime": "15:30",
+            "endTime": "16:15",
+            "day": 4
+        },
+        {
+            "startTime": "16:30",
+            "endTime": "17:15",
+            "day": 4
+        },
+        {
+            "startTime": "17:30",
+            "endTime": "18:15",
+            "day": 4
+        }
+    ]
+}
