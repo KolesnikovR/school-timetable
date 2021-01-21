@@ -1,6 +1,11 @@
 import Equipment from './equipment';
 import List from './list';
 
+export interface ISubject {
+    subject: Subject,
+    hoursPerWeek: number
+}
+
 export default class Subject {
     private readonly _id: string;
     private _name: string;

@@ -267,13 +267,23 @@
     ],
     "subjects": [
         {
+            "name": "Математика",
+            "difficulty": 12,
+            "equipments": []
+        },
+        {
             "name": "Иностранный язык",
             "difficulty": 11,
             "equipments": []
         },
         {
-            "name": "Математика",
-            "difficulty": 8,
+            "name": "Белорусский язык",
+            "difficulty": 10,
+            "equipments": []
+        },
+        {
+            "name": "Русский язык",
+            "difficulty": 10,
             "equipments": []
         },
         {
@@ -282,6 +292,107 @@
             "equipments": [
                 "Инвентарь для лабораторных по физике"
             ]
+        },
+        {
+            "name": "Химия",
+            "difficulty": 9,
+            "equipments": [
+                "Инвентарь для лабораторных по химии"
+            ]
+        },
+        {
+            "name": "Информатика",
+            "difficulty": 8,
+            "equipments": [
+                "Копьютеры"
+            ]
+        },
+        {
+            "name": "Астрономия",
+            "difficulty": 8,
+            "equipments": []
+        },
+        {
+            "name": "Биология",
+            "difficulty": 8,
+            "equipments": [
+                "Инвентарь для лабораторных по биологии"
+            ]
+        },
+        {
+            "name": "Всемирная история",
+            "difficulty": 7,
+            "equipments": []
+        },
+        {
+            "name": "История Беларуси",
+            "difficulty": 7,
+            "equipments": []
+        },
+        {
+            "name": "Обществоведение",
+            "difficulty": 7,
+            "equipments": []
+        },
+        {
+            "name": "Белорусская литература",
+            "difficulty": 6,
+            "equipments": []
+        },
+        {
+            "name": "Русская литература",
+            "difficulty": 6,
+            "equipments": []
+        },
+        {
+            "name": "География",
+            "difficulty": 6,
+            "equipments": []
+        },
+        {
+            "name": "Человек и мир",
+            "difficulty": 5,
+            "equipments": []
+        },
+        {
+            "name": "Искусство",
+            "difficulty": 4,
+            "equipments": []
+        },
+        {
+            "name": "Основы безопасности жизнедеятельности",
+            "difficulty": 4,
+            "equipments": []
+        },
+        {
+            "name": "Черчение",
+            "difficulty": 4,
+            "equipments": []
+        },
+        {
+            "name": "Трудовое обучение",
+            "difficulty": 4,
+            "equipments": [
+                {
+                    "name": "Принадлежности для трудового обучения",
+                    "isRequired": true
+                }
+            ]
+        },
+        {
+            "name": "Физическая культура и здоровье",
+            "difficulty": 4,
+            "equipments": [
+                {
+                    "name": "Спортивный инвентарь",
+                    "isRequired": true
+                }
+            ]
+        },
+        {
+            "name": "Допризывная и медицинская подготовка",
+            "difficulty": 4,
+            "equipments": []
         }
     ],
     "cabinets": [
@@ -302,17 +413,527 @@
     ],
     "classes": [
         {
-            "name": "1A",
+            "name": "5A",
             "subjects": [
-                "1"
+                {
+                    "id": "2",
+                    "hoursPerWeek": "3"
+                },
+                {
+                    "id": "12",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "3",
+                    "hoursPerWeek": "3"
+                },
+                {
+                    "id": "13",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "1",
+                    "hoursPerWeek": "3"
+                },
+                {
+                    "id": "0",
+                    "hoursPerWeek": "5"
+                },
+                {
+                    "id": "15",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "9",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "19",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "16",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "20",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "17",
+                    "hoursPerWeek": "1"
+                }
             ]
         },
         {
-            "name": "11A",
+            "name": "6A",
             "subjects": [
-                "0",
-                "1",
-                "2"
+                {
+                    "id": "2",
+                    "hoursPerWeek": "3"
+                },
+                {
+                    "id": "12",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "3",
+                    "hoursPerWeek": "3"
+                },
+                {
+                    "id": "13",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "1",
+                    "hoursPerWeek": "3"
+                },
+                {
+                    "id": "0",
+                    "hoursPerWeek": "5"
+                },
+                {
+                    "id": "6",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "9",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "10",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "14",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "8",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "19",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "16",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "20",
+                    "hoursPerWeek": "2"
+                }
+            ]
+        },
+        {
+            "name": "6Б",
+            "subjects": [
+                {
+                    "id": "2",
+                    "hoursPerWeek": "3"
+                },
+                {
+                    "id": "12",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "3",
+                    "hoursPerWeek": "3"
+                },
+                {
+                    "id": "13",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "1",
+                    "hoursPerWeek": "3"
+                },
+                {
+                    "id": "0",
+                    "hoursPerWeek": "5"
+                },
+                {
+                    "id": "6",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "9",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "10",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "14",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "8",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "19",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "16",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "20",
+                    "hoursPerWeek": "2"
+                }
+            ]
+        },
+        {
+            "name": "7A",
+            "subjects": [
+                {
+                    "id": "2",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "12",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "3",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "13",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "1",
+                    "hoursPerWeek": "3"
+                },
+                {
+                    "id": "0",
+                    "hoursPerWeek": "5"
+                },
+                {
+                    "id": "6",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "9",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "10",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "14",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "8",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "4",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "5",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "19",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "16",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "20",
+                    "hoursPerWeek": "2"
+                }
+            ]
+        },
+        {
+            "name": "7Б",
+            "subjects": [
+                {
+                    "id": "2",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "12",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "3",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "13",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "1",
+                    "hoursPerWeek": "3"
+                },
+                {
+                    "id": "0",
+                    "hoursPerWeek": "5"
+                },
+                {
+                    "id": "6",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "9",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "10",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "14",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "8",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "4",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "5",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "19",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "16",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "20",
+                    "hoursPerWeek": "2"
+                }
+            ]
+        },
+        {
+            "name": "8A",
+            "subjects": [
+                {
+                    "id": "2",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "12",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "3",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "13",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "1",
+                    "hoursPerWeek": "3"
+                },
+                {
+                    "id": "0",
+                    "hoursPerWeek": "5"
+                },
+                {
+                    "id": "6",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "9",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "10",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "14",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "8",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "4",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "5",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "19",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "16",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "20",
+                    "hoursPerWeek": "2"
+                }
+            ]
+        },
+        {
+            "name": "8Б",
+            "subjects": [
+                {
+                    "id": "2",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "12",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "3",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "13",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "1",
+                    "hoursPerWeek": "3"
+                },
+                {
+                    "id": "0",
+                    "hoursPerWeek": "5"
+                },
+                {
+                    "id": "6",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "9",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "10",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "14",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "8",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "4",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "5",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "19",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "16",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "20",
+                    "hoursPerWeek": "2"
+                }
+            ]
+        },
+        {
+            "name": "9А",
+            "subjects": [
+                {
+                    "id": "2",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "12",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "3",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "13",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "1",
+                    "hoursPerWeek": "3"
+                },
+                {
+                    "id": "0",
+                    "hoursPerWeek": "4"
+                },
+                {
+                    "id": "6",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "9",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "10",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "11",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "14",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "8",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "4",
+                    "hoursPerWeek": "3"
+                },
+                {
+                    "id": "5",
+                    "hoursPerWeek": "2"
+                },
+                {
+                    "id": "19",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "16",
+                    "hoursPerWeek": "1"
+                },
+                {
+                    "id": "20",
+                    "hoursPerWeek": "2"
+                }
             ]
         }
     ],
@@ -326,8 +947,20 @@
             "isRequired": true
         },
         {
-            "name": "Карты",
-            "isRequired": false
+            "name": "Инвентарь для лабораторных по химии",
+            "isRequired": true
+        },
+        {
+            "name": "Инвентарь для лабораторных по биологии",
+            "isRequired": true
+        },
+        {
+            "name": "Компьютеры",
+            "isRequired": true
+        },
+        {
+            "name": "Принадлежности для трудового обучения",
+            "isRequired": true
         }
     ],
     "lessons": [

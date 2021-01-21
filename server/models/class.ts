@@ -1,15 +1,15 @@
 import List from './list';
-import Subject from './subject';
+import Subject, { ISubject } from './subject';
 
 export default class Class {
     private readonly _id: string;
     private _name: string;
-    private _subjects: List<Subject>;
+    private _subjects: List<ISubject>;
 
-    constructor(id: string, name: string, subjects?: Subject[]) {
+    constructor(id: string, name: string, subjects?: ISubject[]) {
         this._id = id;
         this._name = name;
-        this._subjects = new List<Subject>(subjects);
+        this._subjects = new List<ISubject>(subjects);
     }
 
     get id() {

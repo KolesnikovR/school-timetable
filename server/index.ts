@@ -36,7 +36,7 @@ let subjects: Subject[] = data.subjects.map((subject: any, id: number) => new Su
 // Множество классов
 let classes: Class[] = data.classes.map((classData: any, id: number) => new Class(
     id.toString(), classData.name,
-    subjects.filter((subject: Subject) => classData.subjects.includes(subject.id)),
+    classData.subjects.map((subject: any) => ({ subject: subjects.filter((sub) => subject.id === sub.id)[0], hoursPerWeek: subject.hoursPerWeek }))
 ));
 
 // Множество уроков (временные интервалы проведения занятий)
