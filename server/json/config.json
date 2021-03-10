@@ -2,5 +2,7 @@
     "app": {
         "port": "9000"
     },
-    "defaultUserPhoto": ""
+    "defaultUserPhoto": "",
+    "workingDaysCount": 5,
+    "maxLessonsPerDay": 6
 }

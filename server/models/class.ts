@@ -1,15 +1,20 @@
 import List from './list';
-import Subject, { ISubject } from './subject';
+import Subject from './subject';
+
+export interface ISubjectData {
+    subject: Subject,
+    countPerWeek: number
+}
 
 export default class Class {
     private readonly _id: string;
     private _name: string;
-    private _subjects: List<ISubject>;
+    private _subjects: List<ISubjectData>;
 
-    constructor(id: string, name: string, subjects?: ISubject[]) {
+    constructor(id: string, name: string, subjects?: ISubjectData[]) {
         this._id = id;
         this._name = name;
-        this._subjects = new List<ISubject>(subjects);
+        this._subjects = new List<ISubjectData>(subjects);
     }
 
     get id() {

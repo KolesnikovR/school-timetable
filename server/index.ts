@@ -1,12 +1,12 @@
 import express from 'express';
 
 import Class from './models/class';
-import Cabinet from './models/cabinet';
 import Subject from './models/subject';
 import Teacher from './models/teacher';
 import Lesson from './models/lesson';
-import Equipment from './models/equipment';
 import Configuration from './configuration';
+
+import { getMiddleDifficulty, algo } from './algo';
 
 import data from './json/data.json';
 
@@ -19,24 +19,18 @@ app.listen(port, () => {
     console.log(`⚡️[server]: Server is running at http://localhost:${port}`);
 });
 
-// Множество оборудования
-let equipments: Equipment[] = data.equipments.map((equipment: any) => new Equipment(equipment.name, equipment.isRequired));
-
-// Множество кабинетов
-let cabinets: Cabinet[] = data.cabinets.map((cabinet: any) => new Cabinet(
-    cabinet.num, equipments.filter((equipment: Equipment) => cabinet.equipments.includes(equipment.name))
-));
-
 // Множество предметов
 let subjects: Subject[] = data.subjects.map((subject: any, id: number) => new Subject(
-    id.toString(), subject.name, subject.difficulty,
-    equipments.filter((equipment: Equipment) => subject.equipments.includes(equipment.name)),
-));
+    id.toString(), subject.name, subject.difficulty)
+);
 
 // Множество классов
 let classes: Class[] = data.classes.map((classData: any, id: number) => new Class(
     id.toString(), classData.name,
-    classData.subjects.map((subject: any) => ({ subject: subjects.filter((sub) => subject.id === sub.id)[0], hoursPerWeek: subject.hoursPerWeek }))
+    classData.subjects.map((subject: any) => ({
+        subject: subjects.filter((subj) => subj.id === subject.id)[0],
+        countPerWeek: subject.countPerWeek
+    }))
 ));
 
 // Множество уроков (временные интервалы проведения занятий)
@@ -47,12 +41,11 @@ let teachers: Teacher[] = data.teachers.map((teacher: any, id: number) => new Te
     id.toString(), teacher.name, teacher.surname, teacher.patronymic, teacher.photo,
     subjects.filter((subject: Subject) => teacher.subjects.includes(subject.id)),
     lessons.filter((lesson: Lesson) => teacher.wishes.includes(lesson.id)),
-    cabinets.filter((cabinet: Cabinet) => teacher.cabinets.includes(cabinet.num)),
 ));
 
-console.log(equipments);
-console.log(subjects);
-console.log(teachers);
-console.log(cabinets);
-console.log(classes);
-console.log(lessons);
+// console.log(subjects);
+// console.log(teachers);
+// console.log(classes);
+// console.log(lessons);
+// console.log(getMiddleDifficulty(classes[classes.length - 1]));
+algo(classes, teachers, lessons);

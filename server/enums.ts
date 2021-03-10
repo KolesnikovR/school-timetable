@@ -3,6 +3,12 @@ export enum Day {
     Tuesday,
     Wednesday,
     Thursday,
-    Friday,
-    Saturday
+    Friday
+}
+
+export enum Quality {
+    Laboriousness = 4,
+    Alternation = 3,
+    Position = 2,
+    Wishes = 1
 }

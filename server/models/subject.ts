@@ -1,22 +1,12 @@
-import Equipment from './equipment';
-import List from './list';
-
-export interface ISubject {
-    subject: Subject,
-    hoursPerWeek: number
-}
-
 export default class Subject {
     private readonly _id: string;
     private _name: string;
-    private _equipments: List<Equipment>;
     private _difficulty: number;
 
-    constructor(id: string, name: string, difficulty: number, equipments?: Equipment[]) {
+    constructor(id: string, name: string, difficulty: number) {
         this._id = id;
         this._name = name;
         this._difficulty = difficulty;
-        this._equipments = new List<Equipment>(equipments);
     }
 
     get id() {
@@ -29,10 +19,6 @@ export default class Subject {
 
     set name(name: string) {
         this._name = name;
-    }
-
-    get equipments() {
-        return this._equipments.list;
     }
 
     get difficulty() {
